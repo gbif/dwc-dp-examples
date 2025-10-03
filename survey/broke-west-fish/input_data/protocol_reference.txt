@@ -1,0 +1,5 @@
+protocolID	referenceID
+RMT_Target	https://doi.org/10.1016/j.dsr2.2008.06.014
+RMT_Routine	https://doi.org/10.1016/j.dsr2.2008.06.014
+stomach_content	https://doi.org/10.1016/j.dsr2.2008.02.015
+dry_mass_and_energy_content	https://doi.org/10.3354/meps134001

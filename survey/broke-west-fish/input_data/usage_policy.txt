@@ -1,0 +1,2 @@
+usagePolicyID	rights	rightsIRI	license	credit
+CC0	Public Domain	https://creativecommons.org/public-domain/cc0/	https://creativecommons.org/public-domain/cc0/	Photo taken by Anton Van de Putte (CC0)

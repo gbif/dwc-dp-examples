@@ -1,2 +1,11 @@
-identifier	agentID	identifierType	identifierLanguage
-https://orcid.org/0000-0003-1336-5554	https://orcid.org/0000-0003-1336-5554	ORCID	eng
+agentID	identifier	identifierType	identifierLanguage
+https://orcid.org/0000-0002-2042-5095	https://orcid.org/0000-0002-2042-5095	orcid	eng
+https://orcid.org/0000-0002-9870-1256	https://orcid.org/0000-0002-9870-1256	orcid	eng
+https://orcid.org/0000-0002-6145-2129	https://orcid.org/0000-0002-6145-2129	orcid	eng
+https://www.researchgate.net/profile/R-Perissinotto	https://www.researchgate.net/profile/R-Perissinotto	researchgate	eng
+https://orcid.org/0000-0002-3473-8308	https://orcid.org/0000-0002-3473-8308	orcid	eng
+https://orcid.org/0000-0003-1336-5554	https://orcid.org/0000-0003-1336-5554	orcid	eng
+https://orcid.org/0000-0003-1617-5449	https://orcid.org/0000-0003-1617-5449	orcid	eng
+https://orcid.org/0000-0003-4342-4295	https://orcid.org/0000-0003-4342-4295	orcid	eng
+https://www.wikidata.org/entity/Q5765948	https://www.wikidata.org/entity/Q5765948	wikidata QID	eng
+https://ror.org/01fapfv42	https://ror.org/01fapfv42	ror	eng

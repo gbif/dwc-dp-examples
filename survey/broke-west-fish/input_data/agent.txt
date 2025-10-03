@@ -1,2 +1,20 @@
-agentID	agentType	preferredAgentName
-https://orcid.org/0000-0003-1336-5554	person	Anton Van de Putte
+agentID	agentType	preferredAgentName	agentRemarks
+kawaguchi2010-authors	group	Kawaguchi et al. (2010) author group	Use this as the authorID in the Bibliographic Resource
+https://orcid.org/0000-0002-2042-5095	person	S. Kawaguchi	ORCID known (earlier)
+SNic	person	S. Nicol	
+https://orcid.org/0000-0002-9870-1256	person	P. Virtue	(from prior record)
+SDav	person	S.R. Davenport	initials used (no ORCID found)
+RCas	person	R. Casper	initials used (no ORCID found)
+KSwad	person	K.M. Swadling	initials used, unique
+GHos	person	G.W. Hosie	initials used, unique
+pakhomov1996-authors	group	Pakhomov et al. (1996) author group	For MEPS 134:1–14.
+https://orcid.org/0000-0002-6145-2129	person	E.A. Pakhomov	ORCID verified via recent publications listing Evgeny A. Pakhomov (UBC).
+https://www.researchgate.net/profile/R-Perissinotto	person	R. Perissinotto	ResearchGate profile (Nelson Mandela University).
+https://orcid.org/0000-0002-3473-8308	person	C.D. McQuaid	ORCID confirmed in multiple papers.
+putte2010-authors	group	Van de Putte et al. (2010) author group	For DSR II 57(9–10): 956–967.
+https://orcid.org/0000-0003-1336-5554	person	Anton Van de Putte	ORCID shown on GBIF project page.
+GDJax	person	G.D. Jackson	No ORCID/RG found (kept unique initials).
+https://orcid.org/0000-0003-1617-5449	person	H. Flores	ORCID shown on GBIF project page.
+https://orcid.org/0000-0003-4342-4295	person	F.A.M. Volckaert	ORCID shown on GBIF project page.
+https://www.wikidata.org/entity/Q5765948	research vessel	RSV Aurora Australis	
+https://ror.org/01fapfv42	organisation	BELSPO	
