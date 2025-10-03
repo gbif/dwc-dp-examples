@@ -14,6 +14,7 @@
 -- +9.10.7.3 OrganismInteractionMedia
 -- +14. Identification
 
+\COPY agent TO './output_data/agent.tsv' WITH (FORMAT TEXT, DELIMITER E'\t', NULL '', HEADER);
 \COPY media TO './output_data/media.tsv' WITH (FORMAT TEXT, DELIMITER E'\t', NULL '', HEADER);
 \COPY provenance TO './output_data/provenance.tsv' WITH (FORMAT TEXT, DELIMITER E'\t', NULL '', HEADER);
 \COPY media_provenance TO './output_data/media_provenance.tsv' WITH (FORMAT TEXT, DELIMITER E'\t', NULL '', HEADER);

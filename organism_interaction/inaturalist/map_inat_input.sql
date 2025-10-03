@@ -30,6 +30,34 @@ FROM observations
 WHERE quality_grade = 'research';
 -- n = 916
 
+-- Make the agent table with iNaturalist as an institution.
+INSERT INTO agent (
+  agent_id,
+  agent_type,
+  preferred_agent_name
+)
+(SELECT DISTINCT 
+  'https://www.inaturalist.org' AS agent_id,
+  'organization' AS agent_type,
+  'iNaturalist' AS preferred_agent_name
+);
+-- n = 1
+
+-- Add to the agent table with the distinct values of user_id, user_name.
+INSERT INTO agent (
+  agent_id,
+  agent_type,
+  preferred_agent_name
+)
+(SELECT DISTINCT 
+  user_id AS agent_id,
+  'person' AS agent_type,
+  user_name AS preferred_agent_name
+FROM observations
+);
+-- n = 25
+-- total = 26
+
 -- Make a media table with the distinct values of image metadata.
 INSERT INTO media (
     media_id,
