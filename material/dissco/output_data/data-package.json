@@ -3,77 +3,98 @@
   "title" : "Naturalis Biodiversity Center (NL) - Aves",
   "description" : "Database contains specimen records from the bird collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens originate from the collection of the former Naturalis National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie) in Leiden and of the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces and enlarges the dataset Naturalis National Natural History Museum (NL) – Aves Types and Zoological Museum Amsterdam, University of Amsterdam (NL) - Aves which were hosted earlier on the GBIF dataportal. Furthermore the dataset contains many new and updated records, also from the ZMA collection. On request more information can be provided.",
   "version" : "1",
-  "created" : "2025-08-22T11:47:56.518Z",
+  "created" : "2025-10-07T09:37:41.307Z",
   "resources" : [ {
     "name" : "material",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/material.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/material.json",
     "path" : "material.csv"
   }, {
     "name" : "agent",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/agent.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/agent.json",
     "path" : "agent.csv"
   }, {
     "name" : "event",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/event.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/event.json",
     "path" : "event.csv"
   }, {
     "name" : "event-agent-role",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/event-agent-role.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/event-agent-role.json",
     "path" : "event-agent-role.csv"
   }, {
     "name" : "identification",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/identification.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/identification.json",
     "path" : "identification.csv"
   }, {
     "name" : "identification-agent-role",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/identification-agent-role.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/identification-agent-role.json",
     "path" : "identification-agent-role.csv"
   }, {
     "name" : "material-media",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/material-media.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/material-media.json",
     "path" : "material-media.csv"
   }, {
     "name" : "media",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/media.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/media.json",
     "path" : "media.csv"
   }, {
     "name" : "occurrence",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/occurrence.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/occurrence.json",
     "path" : "occurrence.csv"
   }, {
     "name" : "identification-taxon",
     "profile" : "tabular-data-resource",
     "format" : "csv",
     "encoding" : "UTF-8",
-    "schema" : "https://rs.gbif.org/sandbox/experimental/data-packages/dwc-dp/0.1/table-schemas/identification-taxon.json",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/identification-taxon.json",
     "path" : "identification-taxon.csv"
+  }, {
+    "name" : "media-usage-policy",
+    "profile" : "tabular-data-resource",
+    "format" : "csv",
+    "encoding" : "UTF-8",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/media-usage-policy.json",
+    "path" : "media-usage-policy.csv"
+  }, {
+    "name" : "material-usage-policy",
+    "profile" : "tabular-data-resource",
+    "format" : "csv",
+    "encoding" : "UTF-8",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/material-usage-policy.json",
+    "path" : "material-usage-policy.csv"
+  }, {
+    "name" : "usage-policy",
+    "profile" : "tabular-data-resource",
+    "format" : "csv",
+    "encoding" : "UTF-8",
+    "schema" : "https://raw.githubusercontent.com/gbif/dwc-dp/0.1/dwc-dp/table-schemas/usage-policy.json",
+    "path" : "usage-policy.csv"
   } ],
   "contributors" : [ ],
   "sources" : [ ]
