@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:dc="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="889c91a3-614f-4355-8df8-b6d0260a118c" scope="system" system="http://gbif.org" xml:lang="eng" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd">
 
-    <dataset>
-        <alternateIdentifier>doi:10.15468/dxmzbz</alternateIdentifier>
-        <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Aves</title>
-        <creator>
-            <individualName>
-                <givenName>Pepijn</givenName>
-                <surName>Kamminga</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
-        </creator>
-        <creator>
-            <individualName>
-                <givenName>Jeroen</givenName>
-                <surName>Creuwels</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Data manager</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone/>
-            <electronicMailAddress/>
-            <onlineUrl/>
-            <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
-        </creator>
-        <metadataProvider>
-            <individualName>
-                <givenName>Pepijn</givenName>
-                <surName>Kamminga</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
-        </metadataProvider>
-        <pubDate>2025-06-26</pubDate>
-        <language>mul</language>
-        <abstract>
-            <para>Database contains specimen records from the bird collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens originate from the collection of the former Naturalis National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie) in Leiden and of the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces and enlarges the dataset Naturalis National Natural History Museum (NL) – Aves Types and Zoological Museum Amsterdam, University of Amsterdam (NL) - Aves which were hosted earlier on the GBIF dataportal. Furthermore the dataset contains many new and updated records, also from the ZMA collection. On request more information can be provided. </para>
-        </abstract>
-        <keywordSet>
-            <keyword>Occurrence</keyword>
-            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml
-            </keywordThesaurus>
-        </keywordSet>
-        <keywordSet>
-            <keyword>Specimen</keyword>
-            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml
-            </keywordThesaurus>
-        </keywordSet>
-        <intellectualRights>
-            <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated
-                them to the
-                <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode">
-                    <citetitle>Public Domain (CC0 1.0)</citetitle>
-                </ulink>
-                . Users may copy, modify, distribute and use the work, including for commercial purposes, without
-                restriction
-            </para>
-        </intellectualRights>
-        <coverage>
-            <geographicCoverage>
-                <geographicDescription>Global coverage</geographicDescription>
-                <boundingCoordinates>
-                    <westBoundingCoordinate>-180</westBoundingCoordinate>
-                    <eastBoundingCoordinate>180</eastBoundingCoordinate>
-                    <northBoundingCoordinate>90</northBoundingCoordinate>
-                    <southBoundingCoordinate>-90</southBoundingCoordinate>
-                </boundingCoordinates>
-            </geographicCoverage>
-        </coverage>
-        <contact>
-            <individualName>
-                <givenName>Pepijn</givenName>
-                <surName>Kamminga</surName>
-            </individualName>
-            <organizationName>Naturalis Biodiversity Center</organizationName>
-            <positionName>Curator</positionName>
-            <address>
-                <deliveryPoint>PO Box 9517</deliveryPoint>
-                <city>Leiden</city>
-                <administrativeArea>Zuid Holland</administrativeArea>
-                <postalCode>NL-2300 RA</postalCode>
-                <country>NL</country>
-            </address>
-            <phone>+31.71.7519600</phone>
-            <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
-            <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
-        </contact>
-    </dataset>
-    <additionalMetadata>
-        <metadata>
-            <gbif>
-                <dateStamp>2015-11-30T11:49:58.807+00:00</dateStamp>
-                <hierarchyLevel>dataset</hierarchyLevel>
-                <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
-                <dc:replaces/>
-            </gbif>
-        </metadata>
-    </additionalMetadata>
+  <dataset>
+    <alternateIdentifier>doi:10.15468/dxmzbz</alternateIdentifier>
+    <title xml:lang="eng">Naturalis Biodiversity Center (NL) - Aves</title>
+    <creator>
+      <individualName>
+        <givenName>Pepijn</givenName>
+        <surName>Kamminga</surName>
+      </individualName>
+      <organizationName>Naturalis Biodiversity Center</organizationName>
+      <positionName>Curator</positionName>
+      <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+      </address>
+      <phone>+31.71.7519600</phone>
+      <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+      <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jeroen</givenName>
+        <surName>Creuwels</surName>
+      </individualName>
+      <organizationName>Naturalis Biodiversity Center</organizationName>
+      <positionName>Data manager</positionName>
+      <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+      </address>
+      <phone/>
+      <electronicMailAddress/>
+      <onlineUrl/>
+      <userId directory="http://orcid.org/">0000-0001-6131-7026</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Pepijn</givenName>
+        <surName>Kamminga</surName>
+      </individualName>
+      <organizationName>Naturalis Biodiversity Center</organizationName>
+      <positionName>Curator</positionName>
+      <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+      </address>
+      <phone>+31.71.7519600</phone>
+      <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+      <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
+    </metadataProvider>
+    <pubDate>2025-10-01</pubDate>
+    <language>mul</language>
+    <abstract>
+      <para>Database contains specimen records from the bird collection of the Naturalis Biodiversity Center (Leiden, Netherlands). The specimens originate from the collection of the former Naturalis National Museum of Natural History (RMNH; Rijksmuseum voor Natuurlijke Historie) in Leiden and of the Zoological Museum Amsterdam (ZMA) and new acquisitions. This database replaces and enlarges the dataset Naturalis National Natural History Museum (NL) – Aves Types and Zoological Museum Amsterdam, University of Amsterdam (NL) - Aves which were hosted earlier on the GBIF dataportal. Furthermore the dataset contains many new and updated records, also from the ZMA collection. On request more information can be provided. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Occurrence</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml
+      </keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Specimen</keyword>
+      <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml
+      </keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated
+        them to the
+        <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode">
+          <citetitle>Public Domain (CC0 1.0)</citetitle>
+        </ulink>
+        . Users may copy, modify, distribute and use the work, including for commercial purposes, without
+        restriction
+      </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global coverage</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>90</northBoundingCoordinate>
+          <southBoundingCoordinate>-90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Pepijn</givenName>
+        <surName>Kamminga</surName>
+      </individualName>
+      <organizationName>Naturalis Biodiversity Center</organizationName>
+      <positionName>Curator</positionName>
+      <address>
+        <deliveryPoint>PO Box 9517</deliveryPoint>
+        <city>Leiden</city>
+        <administrativeArea>Zuid Holland</administrativeArea>
+        <postalCode>NL-2300 RA</postalCode>
+        <country>NL</country>
+      </address>
+      <phone>+31.71.7519600</phone>
+      <electronicMailAddress>frontofficecollectie@naturalis.nl</electronicMailAddress>
+      <onlineUrl>https://naturalis.nl/en/collection</onlineUrl>
+    </contact>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2015-11-30T11:49:58.807+00:00</dateStamp>
+        <hierarchyLevel>dataset</hierarchyLevel>
+        <resourceLogoUrl>http://ipt.nlbif.nl/resources/logo_Naturalis_rood.png</resourceLogoUrl>
+        <dc:replaces/>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
 </eml:eml>
