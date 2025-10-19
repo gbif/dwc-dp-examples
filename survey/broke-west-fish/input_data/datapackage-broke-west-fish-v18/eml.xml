@@ -1,0 +1,262 @@
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+         packageId="https://dwcdp-ipt.gbif-test.org/resource?id=broke-west-fish/v1.0" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+    <dataset>
+        <shortName>broke-west-fish</shortName>
+        <title xml:lang="eng">Distribution of squid and fish in the pelagic zone of the Cosmonaut Sea and Prydz Bay region during the BROKE-West campaign - data Sampling event</title>
+        <creator>
+            <individualName>
+                <givenName>Anton</givenName>
+                <surName>Van de Putte</surName>
+            </individualName>
+            <organizationName>Royal Belgian Institute of Natural Sciences</organizationName>
+            <address>
+                <country>BE</country>
+            </address>
+            <userId directory="https://orcid.org/">0000-0003-1336-5554</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>George</givenName>
+                <surName>Jackson</surName>
+            </individualName>
+            <organizationName>University of Tasmania</organizationName>
+            <address>
+                <country>AU</country>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Evgeny</givenName>
+                <surName>Pakhomov</surName>
+            </individualName>
+            <organizationName>University of British Columbia</organizationName>
+            <address>
+                <country>CA</country>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Hauke</givenName>
+                <surName>Flores</surName>
+            </individualName>
+            <organizationName>Wageningen IMARES</organizationName>
+            <address>
+                <country>NL</country>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Yi-Ming</givenName>
+                <surName>Gan</surName>
+            </individualName>
+            <userId directory="https://orcid.org/">0000-0001-7087-2646</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Filip</givenName>
+                <surName>Volckaert</surName>
+            </individualName>
+            <organizationName>University of Leuven</organizationName>
+            <address>
+                <country>BE</country>
+            </address>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Anton</givenName>
+                <surName>Van de Putte</surName>
+            </individualName>
+            <organizationName>Royal Belgian Institute of Natural Sciences</organizationName>
+            <address>
+                <country>BE</country>
+            </address>
+            <userId directory="https://orcid.org/">0000-0003-1336-5554</userId>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Yi-Ming</givenName>
+                <surName>Gan</surName>
+            </individualName>
+            <organizationName>Royal Belgian Institute of Natural Sciences</organizationName>
+            <userId directory="https://orcid.org/">0000-0001-7087-2646</userId>
+        </metadataProvider>
+        <pubDate>
+            2025-03-11
+        </pubDate>
+        <language>eng</language>
+        <abstract>
+            Fish data collected by a RMT net. Samples were collected during the 
+BROKE-west cruise of RV ‘‘Aurora Australis’’ (05/06 V3) in 20 the CCAMLR
+ statistical subarea 58.4.2, between January 2 and March 17, 2006. The 
+sampling grid consisted of eleven longitudinal transects between 30° and
+ 80° E and 58°S south to the Antarctic coastline. Fish were caught using
+ Rectangular Midwater Trawl nets (RMT 8 + 1), consisting of a RMT 1 
+mounted above a RMT 8 with a mouth area of 1 and 8 m² and a cod end mesh
+ size of 0.33 and 0.85 mm, respectively. Two types of methods were used:
+ target trawls and routine trawls. Target trawls were not pre-planned 
+and were aimed at acoustically detected aggregations. The net was 
+lowered to the depth of the aggregation, and opened and closed remotely.
+ Routine hauls consisted of a standard double oblique tow from the 
+surface down to 200 5 m and back again to the surface. Towing speed was 
+approximately 2.5 knots (4.5 km h-1). Further details on the sampling 
+procedure are outlined in Kawaguchi et al.
+        </abstract>
+        <keywordSet>
+            <keyword>FISH</keyword>
+            <keyword>PELAGIC</keyword>
+            <keyword>SOUTHERN OCEAN</keyword>
+            <keywordThesaurus>https://gcmd.earthdata.nasa.gov/KeywordViewer/</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY 4.0) License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+            <identifier>CC-BY-4.0</identifier>
+        </licensed>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Southern Ocean</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>29.9</westBoundingCoordinate>
+                    <eastBoundingCoordinate>80.03</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-61.66</northBoundingCoordinate>
+                    <southBoundingCoordinate>-69.21</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2006-01-02</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2006-03-12</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>fish</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>phylum</taxonRankName>
+                    <taxonRankValue>Chordata</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Actinopteri</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Aulopiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Gadiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Myctophiformes</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>order</taxonRankName>
+                    <taxonRankValue>Perciformes</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>unknown</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Anton</givenName>
+                <surName>Van de Putte</surName>
+            </individualName>
+            <organizationName>Royal Belgian Institute of Natural Sciences</organizationName>
+            <address>
+                <country>BE</country>
+            </address>
+            <userId directory="https://orcid.org/">0000-0003-1336-5554</userId>
+        </contact>
+        <contact>
+            <individualName>
+                <givenName>Yi-Ming</givenName>
+                <surName>Gan</surName>
+            </individualName>
+            <organizationName>Royal Belgian Institute of Natural Sciences</organizationName>
+            <address>
+                <country>BE</country>
+            </address>
+            <userId directory="https://orcid.org/">0000-0001-7087-2646</userId>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>Formalin preserved samples and a small subsample of stomachs taken from a few larger frozen fish designated for energy measurements were analysed in the lab. Stomach content was analysed according to the method described in Pakhomov et al. (1996). Results from stomach content analyses were expressed as a percentage of each food item of the total number of food items counted (N, %). 2.3. Water and energy content Dry mass and energy content was determined from frozen specimens. To prevent errors due to the loss of body fluids during dissection, water and energy content was determined for whole individuals only. Only for the few larger specimens caught, stomach content was analysed before 5 desiccation. Frozen fish were thawed, blotted dry and total wet weight (WW) was determined to the nearest 0.1 mg. Fish were freeze dried until complete desiccation (constant mass). After drying, they were re-weighed to determine the total dry weight (DW). Water content was calculated as the difference between WW and DW, expressed as %WW. Individual DW and WW energy content, expressed as kJ g-1, was determined by an isoperibol bomb calorimeter calibrated 10 with benzoic acid. After homogenizing, either the whole fish or a subsample (0.1–0.6 g) was used for calorimetry, depending on the size of the fish. 2.4. Additional Data The RMT net used for sampling was equipped with a CTD, providing detailed data on conductivity, temperature (C°), salinity (PSU), pressure (dBar) and fluorescence (Gorton 2006). Additional oceanographic information such as mixed layer depth (MLD) and position of fronts was provided by Williams et al. (this issue). Solar azimuth, elevation and day length were calculated as a measurement of light conditions, according to a procedure used by NOAA (Earth System Research Laboratory 2007).</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>Samples were collected during the BROKE-west cruise of RV ‘‘Aurora Australis’’ (05/06 V3) in 20 the CCAMLR statistical subarea 58.4.2, between January 2 and March 17, 2006 (Fig. 1). The sampling grid consisted of eleven longitudinal transects between 30° and 80° E and 58°S south to the Antarctic coastline. Fish were caught using Rectangular Midwater Trawl nets (RMT 8 + 1), consisting of a RMT 1 mounted above a RMT 8 with a mouth area of 1 and 8 m² and a cod end mesh size of 0.33 and 0.85 mm, respectively. Two types of methods were used: target trawls and routine trawls. Target trawls were not pre-planned and were aimed at acoustically detected aggregations. The net was lowered to the depth of the aggregation, and opened and closed remotely. Routine hauls consisted of a standard double oblique tow from the surface down to 200 5 m and back again to the surface. Towing speed was approximately 2.5 knots (4.5 km h-1). Further details on the sampling procedure are outlined in Kawaguchi et al.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Fish and squid were sorted from the total catch of the RMT 8 and identified to species level wherever possible. Fish standard length was measured onboard to the lowest mm below and fish were preserved on absolute ethanol, formalin or initially frozen at -80°C and stored at -20°C. Squid were preserved in absolute ethanol onboard; measuring of the mantel length (ML) to the lowest mm below and identification was done in the laboratory.</para>
+                </samplingDescription>
+            </sampling>
+        </methods>
+        <project id="SD/BA/851">
+            <title>PELAGANT</title>
+            <personnel>
+                <individualName>
+                    <givenName>Anton</givenName>
+                    <surName>Van de Putte</surName>
+                </individualName>
+                <userId directory="https://orcid.org/">0000-0003-1336-5554</userId>
+                <role>author</role>
+            </personnel>
+            <abstract>
+                <para>Anton Van de Putte is supported by Belgian Science Policy (PELAGANT project and the PADI project no. SD/BA/851), Hauke Flores is supported by the Netherlands AntArctic Programme (NAAP, Proj. nr. 851.20.011) and the Netherlands Ministry of Agriculture, Nature and Food Quality (LNV).</para>
+            </abstract>
+            <funding>
+                <para>Belgian Science Policy (BELSPO)</para>
+            </funding>
+            <relatedProject id="RT/23/ADVANCE">
+                <title>Antarctic bioDiVersity dAta iNfrastruCturE (ADVANCE)</title>
+                <personnel>
+                    <individualName>
+                        <givenName>Yi-Ming</givenName>
+                        <surName>Gan</surName>
+                    </individualName>
+                    <userId directory="https://orcid.org/">0000-0001-7087-2646</userId>
+                    <role></role>
+                </personnel>
+            </relatedProject>
+        </project>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-03-11T00:40:54.168+00:00</dateStamp>
+                <hierarchyLevel>dataset</hierarchyLevel>
+                <citation>Van de Putte A, Jackson G, Pakhomov E, Flores H, Gan Y, Volckaert F (2025). Distribution of squid and fish in the pelagic zone of the Cosmonaut Sea and Prydz Bay region during the BROKE-West campaign - data. Version 5. Test Organization #1. Dwc-dp dataset. https://dwc2-ipt.gbif-uat.org/resource?r=broke-west-fish&amp;v=5</citation>
+                <bibliography>
+                    <citation identifier="https://doi.org/10.1016/j.dsr2.2008.02.015">Van de Putte, A.P.; Jackson, G.D.; Pakhomov, E.; Flores, H.; Volckaert, F.A.M. (2010). Distribution of squid and fish in the pelagic zone of the Cosmonaut Sea and Prydz Bay region during the BROKE-West campaign. Deep-Sea Res., Part 2, Top. Stud. Oceanogr. 57(9-10): 956-967. dx.doi.org/10.1016/j.dsr2.2008.02.015</citation>
+                    <citation identifier="https://doi.org/10.1016/j.dsr2.2008.06.014">Kawaguchi S., Nicol S., Virtue P., Davenport S., Casper R., Swadling K., Hosie G.W., 2010. Krill demography and large scale distribution in the Western Indian Ocean sector of the Southern Ocean (CCAMLR Division 58.4.2) in Austral summer of 2006. Deep-Sea Research II 57 (9–10), 934–947.</citation>
+                    <citation identifier="https://www.jstor.org/stable/24856112 ">Pakhomov, E.A., Perissinotto, R., McQuaid, C.D., 1996. Prey composition and daily rations of myctophid fishes in the Southern Ocean. Mar. Ecol. Prog. Ser. 134, 1–14.</citation>
+                </bibliography>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

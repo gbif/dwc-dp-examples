@@ -7,7 +7,7 @@ Originally mapped data were shared via https://github.com/biodiversity-aq/broke-
 Do the following to test the integrity of the Darwin Core Data Package directly against the [database schema](../../gbif/dwc_dp_schema.sql):
 
 ## Create a postgreSQL database to hold the input data and the output data mapped to the DwC-DP publishing model:
-```cd survey/broke-west```
+```cd survey/broke-west-fish```
 
 (First time) ```createdb bw && psql bw -f ../../gbif/dwc_dp_schema.sql && psql bw -f ./schema_input_broke_west.sql```
 

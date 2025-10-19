@@ -1,2 +1,20 @@
-agent_id	agent_type	agent_type_iri	agent_type_vocabulary	preferred_agent_name
-https://orcid.org/0000-0003-1336-5554	person			Anton Van de Putte
+agent_id	agent_type	preferred_agent_name	agent_remarks
+kawaguchi2010-authors	group	Kawaguchi et al. (2010) author group	
+https://orcid.org/0000-0002-2042-5095	person	S. Kawaguchi	
+SNic	person	S. Nicol	
+https://orcid.org/0000-0002-9870-1256	person	P. Virtue	
+SDav	person	S.R. Davenport	
+RCas	person	R. Casper	
+KSwad	person	K.M. Swadling	
+GHos	person	G.W. Hosie	
+pakhomov1996-authors	group	Pakhomov et al. (1996) author group	
+https://orcid.org/0000-0002-6145-2129	person	E.A. Pakhomov	
+https://www.researchgate.net/profile/R-Perissinotto	person	R. Perissinotto	
+https://orcid.org/0000-0002-3473-8308	person	C.D. McQuaid	
+putte2010-authors	group	Van de Putte et al. (2010) author group	
+https://orcid.org/0000-0003-1336-5554	person	Anton Van de Putte	
+GDJax	person	G.D. Jackson	
+https://orcid.org/0000-0003-1617-5449	person	H. Flores	
+https://orcid.org/0000-0003-4342-4295	person	F.A.M. Volckaert	
+https://www.wikidata.org/entity/Q5765948	research vessel	RSV Aurora Australis	
+https://ror.org/01fapfv42	organisation	BELSPO	

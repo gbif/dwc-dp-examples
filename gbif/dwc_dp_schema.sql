@@ -346,7 +346,7 @@ CREATE INDEX ON collection_media(collection_id);
 
 CREATE TABLE bibliographic_resource (
   reference_id TEXT PRIMARY KEY,
-  parent_reference_id TEXT REFERENCES bibliographic_resource ON DELETE CASCADE DEFERRABLE NOT NULL,
+  parent_reference_id TEXT REFERENCES bibliographic_resource ON DELETE CASCADE DEFERRABLE,
   reference_type TEXT,
   bibliographic_citation TEXT,
   title TEXT,
@@ -388,7 +388,7 @@ CREATE TABLE event (
   event_id TEXT PRIMARY KEY,
   parent_event_id TEXT REFERENCES event ON DELETE CASCADE DEFERRABLE,
   preferred_event_name TEXT,
-  event_category TEXT NOT NULL,
+  event_category TEXT,
   event_type TEXT,
   dataset_name TEXT,
   dataset_id TEXT,
@@ -1946,10 +1946,10 @@ CREATE INDEX ON event_provenance(event_id);
 
 CREATE TABLE material_provenance (
   provenance_id TEXT REFERENCES provenance ON DELETE CASCADE DEFERRABLE NOT NULL,
-  material_id TEXT REFERENCES material ON DELETE CASCADE DEFERRABLE NOT NULL
+  material_entity_id TEXT REFERENCES material ON DELETE CASCADE DEFERRABLE NOT NULL
 );
 CREATE INDEX ON material_provenance(provenance_id);
-CREATE INDEX ON material_provenance(material_id);
+CREATE INDEX ON material_provenance(material_entity_id);
 
 -- MediaProvenance
 --   A dwc:Provenance for an ac:Media entity.
