@@ -1657,7 +1657,7 @@ UNIQUE (agent_id, identification_id, agent_role, agent_role_iri, agent_role_date
 
 CREATE TABLE identification_taxon (
   identification_id TEXT REFERENCES identification ON DELETE CASCADE DEFERRABLE NOT NULL,
-  taxon_sort_order SMALLINT CHECK (taxon_sort_order >= 1),
+  taxon_sort_order SMALLINT CHECK (taxon_sort_order >= 1) NOT NULL,
   taxon_id TEXT,
   scientific_name_id TEXT,
   geo_classification_code TEXT,

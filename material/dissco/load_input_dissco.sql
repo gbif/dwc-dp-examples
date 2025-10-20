@@ -6,15 +6,17 @@ BEGIN;
 SET CONSTRAINTS ALL DEFERRED;
 
 \copy public.input_agent FROM './output_data/agent.csv' WITH (FORMAT CSV, HEADER);
+\copy public.input_event FROM './output_data/event.csv' WITH (FORMAT CSV, HEADER, FORCE_NULL(coordinateprecision, coordinateuncertaintyinmeters, day, decimallatitude, decimallongitude, enddayofyear, footprintspatialfit, maximumdepthinmeters, minimumdepthinmeters, maximumdistanceabovesurfaceinmeters, minimumdistanceabovesurfaceinmeters, maximumelevationinmeters, minimumelevationinmeters, month, pointradiusspatialfit, startdayofyear, year));
 \copy public.input_event_agent_role FROM './output_data/event-agent-role.csv' WITH (FORMAT CSV, HEADER);
-\copy public.input_event FROM './output_data/event.csv' WITH (FORMAT CSV, HEADER);
-\copy public.input_identification_taxon FROM './output_data/identification-taxon.csv' WITH (FORMAT CSV, HEADER);
 \copy public.input_identification FROM './output_data/identification.csv' WITH (FORMAT CSV, HEADER);
-\copy public.input_material_identifier FROM './output_data/material-identifier.csv' WITH (FORMAT CSV, HEADER);
-\copy public.input_material_media FROM './output_data/material-media.csv' WITH (FORMAT CSV, HEADER);
+\copy public.input_identification_agent_role FROM './output_data/identification-agent-role.csv' WITH (FORMAT CSV, HEADER, FORCE_NULL(agentroleorder));
+\copy public.input_identification_taxon FROM './output_data/identification-taxon.csv' WITH (FORMAT CSV, HEADER, FORCE_NULL(taxonsortorder));
 \copy public.input_material FROM './output_data/material.csv' WITH (FORMAT CSV, HEADER);
-\copy public.input_media FROM './output_data/media.csv' WITH (FORMAT CSV, HEADER);
+\copy public.input_material_media FROM './output_data/material-media.csv' WITH (FORMAT CSV, HEADER);
+\copy public.input_material_usage_policy FROM './output_data/material-usage-policy.csv' WITH (FORMAT CSV, HEADER);
+\copy public.input_media FROM './output_data/media.csv' WITH (FORMAT CSV, HEADER, FORCE_NULL(endtime, framerate, freqhigh, freqlow, heightfrac, mediaduration, mediaspeed, pixelxdimension, pixelydimension, radius, sample_rate, starttime, widthfrac, xfrac, yfrac ));
+\copy public.input_media_usage_policy FROM './output_data/media-usage-policy.csv' WITH (FORMAT CSV, HEADER);
 \copy public.input_occurrence FROM './output_data/occurrence.csv' WITH (FORMAT CSV, HEADER);
-\copy public.input_relationship FROM './output_data/relationship.csv' WITH (FORMAT CSV, HEADER);
+\copy public.input_usage_policy FROM './output_data/usage-policy.csv' WITH (FORMAT CSV, HEADER);
 
 COMMIT;

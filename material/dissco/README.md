@@ -11,7 +11,7 @@ DiSSCo will also implement a DwC-DP download for all datasets provided to DiSSCo
 
 For any question, please contact Sam Leeflang (sam.leeflang@naturalis.nl)
 
-Scripts for integrity testing use the data provider by DISSCo in the output_data folder.
+Scripts for integrity testing use the data provided by DISSCo in the output_data folder.
 
 The process to test the dataset integrity for the DwC-DP publishing model is as follows:
 
