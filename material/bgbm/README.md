@@ -2,7 +2,7 @@
 
 This is dataset is an example of a herbarium collection with media and genetic sequences.
 
-Original data were shared via https://dwc2-ipt.gbif-uat.org/manage/resource?r=test_joerg. The latest mapping uses the original files that were uploaded for version 12 of that dataset. These were copied into the [input data folder](../input_data) before processing, but are not kept in this repository (they are large).
+Original data were shared via https://dwcdp-ipt.gbif-test.org/manage/resource?r=herbar_bgbm. The latest mapping uses the original files that were uploaded for version 12 of that dataset. These were copied into the [input data folder](../input_data) before processing, but are not kept in this repository (they are large).
 
 The process to create the output dataset for the DwC-DP publishing model is as follows:
 
