@@ -1,4 +1,4 @@
-"mediaID"	"materialEntityID"	"mediaSubjectCategory"
+"media_fk"	"materialEntity_fk"	"mediaSubjectCategory"
 "P1.1AS_00L04S_01S"	"P1.1AS"	"part of insect bulk sample"
 "P1.1AS_00L04S_02S"	"P1.1AS"	"part of insect bulk sample"
 "P1.1AS_00L04S_03S"	"P1.1AS"	"part of insect bulk sample"
