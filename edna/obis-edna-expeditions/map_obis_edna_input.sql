@@ -69,7 +69,8 @@ INSERT INTO molecular_protocol (
   lib_layout,
   seq_meth,
   ref_db,
-  tax_class
+  tax_class,
+  sop
 )
 SELECT DISTINCT ON (
   d.target_gene,
@@ -100,7 +101,8 @@ SELECT DISTINCT ON (
   d.lib_layout,
   d.seq_meth,
   d.ref_db,
-  d.tax_class
+  d.tax_class,
+  'https://github.com/iobis/edna-pipelines' AS sop
 FROM input_dna_derived_data d
 ORDER BY
   d.target_gene,
