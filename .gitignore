@@ -43,3 +43,9 @@ vignettes/*.pdf
 
 # data folder
 survey/insektmobilen/data/
+
+# OBIS eDNA input
+edna/obis-edna-expeditions/input_data/
+
+# Local clone of gbif/dwc-dp (header + datapackage tools)
+.dwc-dp-tools/
