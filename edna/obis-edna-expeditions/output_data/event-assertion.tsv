@@ -1,0 +1,7 @@
+eventID	assertionID	verbatimAssertionType	assertionType	assertionTypeIRI	assertionTypeSource	assertionMadeDate	assertionEffectiveDate	assertionValue	assertionValueIRI	assertionValueSource	assertionValueNumeric	assertionUnit	assertionUnitIRI	assertionUnitSource	assertionError	assertionBy	assertionByID	assertionProtocols	assertionProtocolID	assertionReferences	assertionRemarks
+OBIS_EDNA_140	OBIS_EDNA_140_sampleSize		sample size								1000.0	ml									
+OBIS_EDNA_142	OBIS_EDNA_142_sampleSize		sample size								1000.0	ml									
+OBIS_EDNA_140	OBIS_EDNA_140_replicate		replicate					1													
+OBIS_EDNA_142	OBIS_EDNA_142_replicate		replicate					2													
+OBIS_EDNA_140	OBIS_EDNA_140_env_medium		env_medium					ENVO:00002151													
+OBIS_EDNA_142	OBIS_EDNA_142_env_medium		env_medium					ENVO:00002151													
